@@ -1,0 +1,10 @@
+{
+  "presentations": [
+    { "id": "presentation-demo-001", "title": "生活選品・品牌提案", "author": "示範作者 A", "slideCount": 3 },
+    { "id": "presentation-demo-002", "title": "旅宿品牌・季度提案", "author": "示範作者 B", "slideCount": 3 },
+    { "id": "presentation-demo-003", "title": "餐飲品牌・市場觀察", "author": "示範作者 C", "slideCount": 3 },
+    { "id": "presentation-demo-004", "title": "生活風格・企劃簡報", "author": "示範作者 A", "slideCount": 3 },
+    { "id": "presentation-demo-005", "title": "空間設計・合作提案", "author": "示範作者 B", "slideCount": 3 },
+    { "id": "presentation-demo-006", "title": "永續生活・年度計畫", "author": "示範作者 C", "slideCount": 3 }
+  ]
+}

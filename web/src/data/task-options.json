@@ -1,0 +1,13 @@
+{
+  "fields": [
+    {
+      "key": "target",
+      "type": "target-tags",
+      "label": "對象",
+      "placeholder": "輸入數字，按 Tab 加入",
+      "required": true,
+      "maxLength": 20000
+    }
+  ],
+  "skillId": "adapt-presentation"
+}

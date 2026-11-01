@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "title": "日々 hibi — 簡報欄位設定",
+    "description": "檢查簡報中的替換欄位，調整文字片段與照片設定。",
+    "language": "zh-Hant"
+  },
+  "brand": {
+    "name": "日々",
+    "caption": "HIBI STUDIO",
+    "home": "日々簡報欄位設定",
+    "motto": "把重複的留給工具，\n把選擇留給自己。",
+    "prototype": "前端展示原型",
+    "footer": "日々 hibi / presentation studio",
+    "japanese": "ひとつずつ、整える。"
+  },
+  "nav": {
+    "label": "工作區",
+    "workspace": "我的工作空間",
+    "review": "欄位設定",
+    "guide": "使用指南",
+    "connected": "已連接儲存服務",
+    "disconnected": "示範資料 · 尚未連接服務",
+    "tasks": "執行任務"
+  },
+  "hero": {
+    "eyebrow": "A LITTLE CARE FOR EVERY DETAIL",
+    "title": "找到變化，",
+    "accent": "留下剛剛好。",
+    "description": "檢查簡報中的替換欄位，留下需要的文字與照片。",
+    "japanese": "ひとつずつ、整える。"
+  },
+  "actions": {
+    "save": "儲存",
+    "saving": "儲存中…",
+    "retry": "重新載入",
+    "undo": "↶ 復原",
+    "add": "＋ 新增",
+    "clear": "清除篩選",
+    "next": "下一個待確認 →",
+    "reset": "重設變更",
+    "cancel": "取消新增",
+    "apply": "套用修改",
+    "addField": "新增欄位",
+    "confirm": "✓ 確認保留",
+    "unconfirm": "改回待確認",
+    "addRange": "＋ 新增另一個片段",
+    "remove": "移除誤判",
+    "back": "回到欄位設定 ↗"
+  },
+  "types": {
+    "text": "文字",
+    "image": "照片"
+  },
+  "state": {
+    "pending": "待確認",
+    "confirmed": "已確認",
+    "allConfirmed": "已確認 ✓",
+    "dirty": "有尚未儲存的調整",
+    "clean": "目前沒有未儲存的調整",
+    "project": "{pages} 張投影片 · {state}",
+    "position": "第 {page} 頁",
+    "source": "第 {page} 頁 · {type}",
+    "locations": "{count} 處",
+    "pendingLocations": "{count} 處待確認",
+    "fieldCount": "{count} 個欄位",
+    "usage": "{locations} 個使用位置 · {pending} 處待確認",
+    "progress": "還有 {pending} 處待確認 · 已確認 {confirmed} / {total}",
+    "pageLink": "P{page} ↗",
+    "locationLabel": "{name} 第 {page} 頁位置",
+    "quote": "「{text}」",
+    "positionProgress": "{current} / {total}",
+    "scan": "自動辨識",
+    "manual": "手動新增"
+  },
+  "summary": {
+    "label": "校對進度",
+    "fields": "目前欄位",
+    "pending": "待確認",
+    "confirmed": "已確認",
+    "note": "辨識是起點，\n你的判斷才是最後一步。",
+    "progress": "欄位確認進度"
+  },
+  "slides": {
+    "label": "投影片清單",
+    "title": "投影片",
+    "note": "先選一頁，\n再看看哪些地方會改變。"
+  },
+  "canvas": {
+    "label": "簡報欄位預覽",
+    "title": "原始簡報預覽",
+    "mode": "校對替換標記",
+    "tip": "✧ 點選標記查看欄位；點選文字或照片，可手動新增。",
+    "showMarkers": "顯示替換標記",
+    "selectText": "選取{text}",
+    "selectObject": "選取物件 {index}",
+    "imageAlt": "簡報圖片",
+    "markerLabel": "查看欄位：{name}"
+  },
+  "table": {
+    "label": "目前欄位總表",
+    "eyebrow": "FIELD OVERVIEW",
+    "caption": "目前設定的欄位、類型與使用位置",
+    "name": "欄位名稱",
+    "type": "Type",
+    "locations": "位置",
+    "empty": "還沒有設定欄位。"
+  },
+  "workbench": {
+    "label": "校對與編輯",
+    "title": "逐一校對，留下需要的欄位。",
+    "queue": "校對清單",
+    "search": "搜尋欄位",
+    "searchPlaceholder": "搜尋 <欄位名稱>…",
+    "filter": "欄位篩選",
+    "allTypes": "全部類型",
+    "thisPage": "僅此頁",
+    "empty": "這裡暫時沒有欄位。",
+    "emptyHint": "調整篩選，或手動新增一個。"
+  },
+  "editor": {
+    "label": "欄位編輯區",
+    "editEyebrow": "EDIT FIELD",
+    "newEyebrow": "NEW FIELD",
+    "editTitle": "編輯欄位",
+    "newTitle": "新增欄位",
+    "sourceHint": "請直接點選上方簡報中的文字或照片，開始新增欄位。",
+    "imageAlt": "要標記的照片",
+    "name": "欄位名稱",
+    "namePlaceholder": "例如：產業名稱",
+    "sharedHint": "同名欄位可在多個位置共用相同內容。",
+    "emptyEyebrow": "ONE THING AT A TIME",
+    "emptyTitle": "選取內容，就在這裡編輯。",
+    "emptyHint": "點選左側校對清單，或在上方簡報選一段文字、照片。",
+    "manualReason": "由使用者手動新增。"
+  },
+  "range": {
+    "label": "要替換的文字片段",
+    "all": "選取全文",
+    "hint": "反白選取要替換的文字，其他內容會保留。",
+    "preview": "替換範圍預覽",
+    "token": "<欄位名稱>"
+  },
+  "notes": [
+    [
+      "看見辨識結果",
+      "欄位清單與簡報位置互相對應。"
+    ],
+    [
+      "把誤判輕輕移除",
+      "只移除標記，保留原本的簡報內容。"
+    ],
+    [
+      "補上遺漏的欄位",
+      "選取既有文字或照片，加入欄位清單。"
+    ]
+  ],
+  "guide": {
+    "eyebrow": "A SMALL GUIDE TO REVIEW",
+    "title": "讓每一處修改，都有依據。",
+    "items": [
+      [
+        "先選擇簡報",
+        "到「執行任務」選擇伺服器上的簡報，不需提供本機檔案。"
+      ],
+      [
+        "提供 Skill 執行參數",
+        "對象為必填。輸入一串數字後按 Tab，即收成標籤並可繼續輸入下一筆；標籤可單獨刪除。內容只傳給 Skill，不會直接填進簡報。"
+      ],
+      [
+        "查看進度與結果",
+        "開始後可持續查看處理階段與紀錄。完成後預覽簡報，再開啟欄位設定。前端示範模式會清楚標示，不會真的執行 Skill。"
+      ],
+      [
+        "檢查並儲存",
+        "在欄位設定中確認、移除或補上替換項目。套用修改後按「儲存」送到伺服器；未連接服務時不會假裝儲存成功。"
+      ]
+    ],
+    "start": "開始執行任務 ↗"
+  },
+  "messages": {
+    "demo": "目前顯示示範資料。選取欄位，檢查是否需要保留。",
+    "loaded": "欄位設定已載入。",
+    "restored": "已復原上一個調整。",
+    "removed": "已移除「{name}」的標記，簡報內容保留。",
+    "confirmed": "已確認「{name}」。",
+    "pending": "「{name}」已改為待確認。",
+    "updated": "欄位設定已套用，請重新確認。",
+    "added": "已新增欄位，簡報內容保持原樣。",
+    "saving": "正在儲存設定…",
+    "saved": "已儲存至伺服器。",
+    "savedWithChanges": "已儲存送出時的設定，另有新調整尚未儲存。"
+  },
+  "errors": {
+    "name": "欄位名稱需為 1–80 個字，不可包含換行或額外的角括號。",
+    "range": "請在原文中選取有效的替換片段。",
+    "emoji": "請完整選取文字，避免切開表情符號。",
+    "payload": "設定資料格式不正確。",
+    "deck": "投影片資料或畫布尺寸不正確。",
+    "slide": "投影片識別碼、背景或物件資料不正確。",
+    "object": "物件識別碼、類型或尺寸不正確。",
+    "text": "文字物件格式不正確。",
+    "fill": "物件填色不正確。",
+    "image": "預覽圖片格式不正確。",
+    "tooMany": "欄位數量超出支援範圍。",
+    "groupId": "欄位識別資料不正確。",
+    "groupMapping": "同名欄位的識別資料不一致。",
+    "token": "替換標記需與欄位名稱一致。",
+    "binding": "欄位資料或物件對應不正確。",
+    "sharedType": "同名欄位須使用相同類型，文字與照片請使用不同名稱。",
+    "imageTarget": "照片欄位需對應圖片，文字欄位需對應文字物件。",
+    "overlap": "這個片段與既有欄位重疊，請選取其他範圍。",
+    "duplicatePhoto": "同一張照片只能對應一個欄位。",
+    "target": "請選擇有效的文字或照片物件。",
+    "serverUnavailable": "尚未連接儲存服務，這次調整尚未儲存。",
+    "saveFailed": "儲存失敗，目前調整仍保留，請稍後再試。",
+    "loadFailed": "無法載入設定，請稍後重新載入。",
+    "draft": "請先套用或重設下方的編輯內容，再儲存。",
+    "config": "服務設定無法讀取，請重新載入。"
+  },
+  "tasks": {
+    "eyebrow": "MAKE ROOM FOR YOUR NEXT PRESENTATION",
+    "title": "把準備交給工具，",
+    "accent": "把時間留給想法。",
+    "description": "選擇伺服器上的簡報，提供 Skill 的執行參數，並在這裡查看進度與結果。",
+    "demoBadge": "示範模式",
+    "liveBadge": "任務服務已連接",
+    "demoNotice": "目前為前端示範，不會執行 Skill。輸入僅作為執行參數，不會直接寫入或修改簡報；結果為未修改的示範預覽。",
+    "formTitle": "準備這次的任務",
+    "presentation": "選擇伺服器簡報",
+    "inputTitle": "Skill 執行參數",
+    "start": "開始執行",
+    "running": "處理中…",
+    "cancel": "停止任務",
+    "retry": "重新執行",
+    "progressTitle": "任務進度",
+    "progressLabel": "任務完成進度",
+    "progressText": "{percent}%",
+    "idle": "準備開始",
+    "queued": "等待處理",
+    "working": "正在處理",
+    "completed": "處理完成",
+    "cancelled": "已停止",
+    "failed": "處理失敗",
+    "idleHint": "填好左側內容，進度就會出現在這裡。",
+    "activity": "處理紀錄",
+    "noLogs": "開始後會顯示每個處理階段。",
+    "demoLogPrefix": "示範",
+    "inputSummary": "本次執行參數",
+    "resultTitle": "這次的處理結果",
+    "resultDemo": "示範預覽，並非實際 Skill 輸出。",
+    "resultReady": "任務已完成，可預覽結果或繼續檢查欄位。",
+    "openResult": "開啟欄位設定 ↗",
+    "replaceNotice": "開啟結果會取代目前工作台內容，原有調整可在工作台復原。",
+    "previous": "← 上一頁",
+    "next": "下一頁 →",
+    "page": "{current} / {total}",
+    "resultEmpty": "任務完成，但服務尚未提供可預覽的簡報內容。",
+    "resultError": "服務回傳的結果無法顯示，請重新執行。",
+    "required": "請選擇伺服器簡報，並完成必填的 Skill 執行參數。",
+    "networkError": "任務服務暫時無法連接，請稍後重試。",
+    "cancelNotice": "已停止更新這次任務的進度。",
+    "cancelFailed": "停止請求未成功，服務端任務可能仍在執行。",
+    "opened": "已開啟任務結果，可以繼續檢查欄位。",
+    "previewLabel": "任務結果預覽",
+    "stageLabel": "處理階段",
+    "stepComplete": "已完成",
+    "stepPending": "等待中",
+    "stages": [
+      {
+        "id": "prepare",
+        "title": "整理輸入",
+        "description": "確認所選簡報與 Skill 執行參數。"
+      },
+      {
+        "id": "process",
+        "title": "執行處理",
+        "description": "依照執行參數進行 Skill 任務。"
+      },
+      {
+        "id": "preview",
+        "title": "準備預覽",
+        "description": "整理投影片與欄位結果。"
+      },
+      {
+        "id": "done",
+        "title": "完成",
+        "description": "結果已準備好，可以開始檢查。"
+      }
+    ],
+    "inputHint": "對象為必填，僅傳給 Skill 使用，不會直接寫入簡報。",
+    "presentationPlaceholder": "請選擇簡報",
+    "catalogLoading": "正在讀取簡報清單…",
+    "catalogError": "簡報清單無法載入，請稍後重試。",
+    "catalogRetry": "重新讀取簡報",
+    "catalogEmpty": "伺服器上還沒有可選擇的簡報。",
+    "presentationMeta": "作者：{author} · {pages} 張投影片",
+    "targetHint": "輸入一串數字後按 Tab，即可加入 對象 標籤並繼續輸入。也可按 Enter；輸入框空白時，Tab 會移到下一項。",
+    "targetCount": "已輸入 {count} 筆 對象",
+    "targetError": "對象 僅能包含數字，請確認輸入內容與總長度。",
+    "targetPlaceholder": "輸入數字，按 Tab 加入",
+    "targetNext": "繼續輸入下一筆…",
+    "removeTarget": "移除第 {index} 筆 對象 {target}",
+    "presentationSearch": "搜尋簡報名稱或作者…",
+    "presentationToggle": "展開簡報選單",
+    "presentationSearchHint": "輸入簡報名稱或作者搜尋",
+    "presentationAuthor": "作者：{author}",
+    "presentationPages": "{pages} 張投影片",
+    "presentationNoResults": "找不到符合的簡報，請換個關鍵字。"
+  }
+}
