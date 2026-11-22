@@ -18,10 +18,10 @@ foreach ($relative in $rootFiles) {
     if (Test-Path -LiteralPath $path -PathType Leaf) { $files.Add($path) }
 }
 foreach ($relative in $webFiles) {
-    $path = Join-Path (Join-Path $projectRoot 'web') $relative
+    $path = Join-Path (Join-Path $projectRoot 'web/hibi-living') $relative
     if (Test-Path -LiteralPath $path -PathType Leaf) { $files.Add($path) }
 }
-foreach ($relative in @('web/src', 'web/public', 'web/scripts', 'web/tests', 'tools')) {
+foreach ($relative in @('web/hibi-living/src', 'web/hibi-living/public', 'web/hibi-living/scripts', 'web/hibi-living/tests', 'tools')) {
     $directory = Join-Path $projectRoot $relative
     if (Test-Path -LiteralPath $directory -PathType Container) {
         foreach ($file in Get-ChildItem -LiteralPath $directory -File -Recurse -Force) {

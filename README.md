@@ -30,7 +30,7 @@ Vue 3 + Vite 純前端。介面使用「替換欄位／欄位設定」，保留�
 ## 啟動與檢查
 
 ```powershell
-cd E:\WUI\web
+cd E:\WUI\web\hibi-living
 pnpm.cmd install
 pnpm.cmd dev
 ```
@@ -44,15 +44,15 @@ pnpm.cmd test:e2e
 
 ## 修改介面文案
 
-`web/src/locales/zh-TW.json` 集中管理：頁面標題、導覽、按鈕、狀態、說明、錯誤、placeholder、alt、aria-label 與使用指南。
+`web/hibi-living/src/locales/zh-TW.json` 集中管理：頁面標題、導覽、按鈕、狀態、說明、錯誤、placeholder、alt、aria-label 與使用指南。
 Vue 與驗證函式統一讀取此 JSON，動態數值透過 `{count}`、`{page}` 等占位符填入。
 本機開發修改 JSON 會熱更新；正式部署需重新建置。
 
-簡報內容與辨識結果不是 UI 文案，示範資料獨立放在 `web/src/data/demo-review.json`；正式資料由 server 提供。
+簡報內容與辨識結果不是 UI 文案，示範資料獨立放在 `web/hibi-living/src/data/demo-review.json`；正式資料由 server 提供。
 
 ## Server 接口
 
-`web/public/app-config.json` 是執行時設定：
+`web/hibi-living/public/app-config.json` 是執行時設定：
 
 ```json
 { "reviewEndpoint": null }
@@ -77,7 +77,7 @@ Vue 與驗證函式統一讀取此 JSON，動態數值透過 `{count}`、`{page}
 ## 資料格式
 
 保留 `version: 1`、`deck` 與 `variables` 的技術欄位，避免影響後續串接；使用者介面不顯示這些內部名稱。
-完整範例見 `web/src/data/demo-review.json`。
+完整範例見 `web/hibi-living/src/data/demo-review.json`。
 
 - `deck`：簡報名稱、畫布尺寸與投影片／物件資料。
 - `variables[].variableId`：共用欄位 ID，可對應多個文字片段或多張照片，但類型不可混用。
