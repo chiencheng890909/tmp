@@ -1,0 +1,110 @@
+[
+  {
+    "title": "arrival.",
+    "note": "抵達 / Where the water begins",
+    "time": "00:04.18",
+    "lineTop": "抵達",
+    "lineBottom": "Where the water begins",
+    "track": "ARRIVAL",
+    "chartSeed": 1
+  },
+  {
+    "title": "remember.",
+    "note": "記得 / The last light on the coast",
+    "time": "00:14.42",
+    "lineTop": "記得",
+    "lineBottom": "The last light on the coast",
+    "track": "REMEMBER",
+    "chartSeed": 2
+  },
+  {
+    "title": "drift.",
+    "note": "漂流 / Foam against the rocks",
+    "time": "00:27.08",
+    "lineTop": "漂流",
+    "lineBottom": "Foam against the rocks",
+    "track": "DRIFT",
+    "chartSeed": 3
+  },
+  {
+    "title": "distance.",
+    "note": "遠方 / A road into the wind",
+    "time": "00:41.35",
+    "lineTop": "遠方",
+    "lineBottom": "A road into the wind",
+    "track": "DISTANCE",
+    "chartSeed": 4
+  },
+  {
+    "title": "signal.",
+    "note": "訊號 / A light across the water",
+    "time": "00:56.12",
+    "lineTop": "訊號",
+    "lineBottom": "A light across the water",
+    "track": "SIGNAL",
+    "chartSeed": 5
+  },
+  {
+    "title": "return.",
+    "note": "歸來 / The sea at first light",
+    "time": "01:09.26",
+    "lineTop": "歸來",
+    "lineBottom": "The sea at first light",
+    "track": "RETURN",
+    "chartSeed": 6
+  },
+  {
+    "title": "return.",
+    "note": "歸來 / The sea at first light",
+    "time": "01:09.26",
+    "lineTop": "歸來",
+    "lineBottom": "The sea at first light",
+    "track": "RETURN",
+    "chartSeed": 7
+  },
+  {
+    "title": "return.",
+    "note": "歸來 / The sea at first light",
+    "time": "01:09.26",
+    "lineTop": "歸來",
+    "lineBottom": "The sea at first light",
+    "track": "RETURN",
+    "chartSeed": 8
+  },
+  {
+    "title": "return.",
+    "note": "歸來 / The sea at first light",
+    "time": "01:09.26",
+    "lineTop": "歸來",
+    "lineBottom": "The sea at first light",
+    "track": "RETURN",
+    "chartSeed": 9
+  },
+  {
+    "title": "return.",
+    "note": "歸來 / The sea at first light",
+    "time": "01:09.26",
+    "lineTop": "歸來",
+    "lineBottom": "The sea at first light",
+    "track": "RETURN",
+    "chartSeed": 10
+  },
+  {
+    "title": "return.",
+    "note": "歸來 / The sea at first light",
+    "time": "01:09.26",
+    "lineTop": "歸來",
+    "lineBottom": "The sea at first light",
+    "track": "RETURN",
+    "chartSeed": 11
+  },
+  {
+    "title": "return.",
+    "note": "歸來 / The sea at first light",
+    "time": "01:09.26",
+    "lineTop": "歸來",
+    "lineBottom": "The sea at first light",
+    "track": "RETURN",
+    "chartSeed": 100
+  }
+]
